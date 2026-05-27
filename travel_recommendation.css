@@ -104,15 +104,8 @@ nav h1 {
 /* HERO SECTION */
 
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 80vh;
-
-    padding-left: 80px;
-
-    max-width: 700px;
+    min-height: 300px;
+    padding: 80px 0 40px 80px;
 }
 
 .hero-content h1 {
@@ -193,14 +186,11 @@ nav h1 {
 
 .results-grid {
     display: grid;
-
-    margin-top: 40px;
-
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-
-    padding: 60px;
+    padding: 20px 60px 60px;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .result-card {
